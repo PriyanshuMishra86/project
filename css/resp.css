@@ -1,0 +1,463 @@
+/* index.php Home Page Responsive Code  */
+
+@media only screen and (max-width: 1232px) {
+    .nav-list li {
+        list-style: none;
+        padding: 20px 15px;
+    }
+
+    .nav-list {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rightnav {
+        width: 20%;
+        text-align: right;
+        padding: 0px 23px;
+    }
+}
+
+@media only screen and (max-width: 1112px) {
+    .sm-button {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1011px) {
+    .navbar {
+        height: 524px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        padding: 15px;
+    }
+
+    .rightnav {
+        text-align: center;
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+    .container {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 671px) {
+    .container {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+    }
+
+    .first-section {
+        font-size: 20px;
+    }
+
+    .search-div {
+        margin: 5px 10px;
+    }
+
+    .search-form {
+        padding: 5px 10px;
+    }
+
+    #search {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .second-section {
+        margin: 10px 0px;
+        padding: 15px 0px;
+    }
+
+    .card {
+        width: 250px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .first-section {
+        font-size: 15px;
+        height: 70vh;
+    }
+
+    .search-div {
+        margin: 5px;
+    }
+
+    #search {
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .search-btn {
+        height: 30px;
+        border-radius: 10px;
+    }
+}
+
+/* About Us Page Work */
+@media only screen and (max-width: 1005px) {
+    .about-us-containt {
+        padding: 20px 5px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .about-us-text {
+        padding: 15px 5px;
+        margin: 10px 5px;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .about-us-text h2 {
+        font-size: 22px;
+    }
+
+    .about-us-text p,
+    li {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .about-us-text h2 {
+        font-size: 19px;
+    }
+
+    .about-us-text p,
+    li {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .footer {
+        font-size: 13px;
+    }
+}
+
+/* Contact Us Page Work */
+@media only screen and (max-width: 422px) {
+    .form-group {
+        font-size: 15px;
+    }
+
+    .form-white {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 304px) {
+    .form-white {
+        width: 80vw;
+    }
+}
+
+/* Review  Page Work */
+@media only screen and (max-with: 390px) {
+    .username {
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .username-inside {
+        margin-bottom: 8px;
+    }
+
+    .review-container {
+        margin: 10px auto;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+}
+
+/* View Phone Number Page Work */
+@media only screen and (max-width: 1174px) {
+    .form-white-phone {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 1042px) {
+    .name p {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 793px) {
+    .name p {
+        font-size: 17px;
+    }
+
+    .name span {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 718px) {
+    .name p {
+        font-size: 15px;
+    }
+
+    .name span {
+        font-size: 14px;
+    }
+
+    .name svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .name {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .name p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Buy.php */
+
+@media only screen and (max-width: 1011px) {
+    .container-2 {
+        /* background-color: aquamarine; */
+        border: 1px solid black;
+        margin: 23px 10px;
+        border-radius: 10px;
+        height: 1355px;
+    }
+
+    .contant {
+        flex-direction: column;
+    }
+
+    .slider {
+        height: 50%;
+        width: 100%;
+    }
+
+    .carousel {
+        position: relative;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        position: relative;
+        display: none;
+        height: 100%;
+        float: left;
+        width: 100%;
+        margin-right: -100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform .6s ease-in-out;
+    }
+
+    .slider img {
+        height: 99%;
+        width: 100%;
+        /* border: 2px solid black; */
+        border-radius: 8px;
+    }
+
+    .card-body-details {
+        width: 100%;
+        padding: 23px;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    .amenities-contanier {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    .amenities-contanier {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .desc>p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .card-body-details {
+        font-size: 15px;
+    }
+
+    .desc>h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 437px) {
+    .card-body-details {
+        font-size: 13px;
+    }
+
+    .card-body-details-title>h2 {
+        font-size: 22px;
+    }
+
+    .amenities>h1 {
+        font-size: 25px;
+    }
+
+    .amenities-contanier {
+        font-size: 12px;
+    }
+
+    .box>svg {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .table-head>svg {
+        height: 22px;
+        width: 22px;
+        margin-right: 5px;
+    }
+
+    .desc>p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .card-body-details {
+        width: 100%;
+        padding: 23px 5px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .container-2 {
+        margin: 23px 5px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .card-body-details-text>table>tbody>tr>td {
+        padding: 10px 5px;
+        margin: 10px 5px;
+    }
+
+    .box {
+        margin: 10px 5px;
+        padding: 10px 5px;
+    }
+
+    .desc>p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 258px) {
+    .card-body-details-title>h2 {
+        font-size: 20px;
+    }
+
+    .amenities>h1 {
+        font-size: 20px;
+    }
+
+    .desc>h2 {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .sm-btn {
+        padding: 10px 5px;
+        margin: 5px 2px;
+    }
+
+}
+
+@media only screen and (max-width: 230px) {
+    .footer {
+        font-size: 14px;
+        height: 70px;
+    }
+
+    .amenities-contanier {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Search Page work */
+
+@media only screen and (max-width: 970px) {
+    .search-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .search-page {
+        text-align: center;
+        margin: 10px 5px;
+        padding: 15px 5px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .search-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
